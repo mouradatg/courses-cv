@@ -235,3 +235,31 @@ Par Mourad Attig
 	{
 	    margin-right: 5px;
 	}
+
+	/*	------------------------------------
+	Footer
+	------------------------------------*/
+	footer {
+		background-image: url("img/separateur.png");
+		background-repeat: repeat-x;
+		background-position: top;
+		display: flex;
+	}
+
+	footer h1 {
+		font-size: 0.8em; 
+	}
+
+	footer p, footer ul {
+		font-size: 0.7em; 
+	}
+
+	#amis {
+		margin-left: 30px; 
+	}
+
+	#liste-amis {
+		display: flex;
+		flex-wrap: wrap;
+		align-content: space-between; 
+	}
