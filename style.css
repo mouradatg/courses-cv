@@ -1,0 +1,52 @@
+/* 
+style.css 
+---------------
+
+Par Mourad Attig
+*/
+
+/*	-----------------------------
+	Globale
+	-----------------------------*/
+	body {
+		background-color: #DEE0E2;
+	}
+
+/*	-----------------------------
+	Les Typologie 
+	-----------------------------*/
+	body {
+		font-family: Arial, sans-serif; 
+	}
+
+	h1 {
+		font-size: 2em;
+	}
+
+	h2 {
+		font-size: 1.3em;
+		color: #AA6C39
+	}
+
+	p, li {
+		font-size: 0.8em;
+	}
+
+/*	-----------------------------
+	Titre de la page 
+	-----------------------------*/
+	h1, .titre{
+		text-align: center;
+	}
+
+/*	-----------------------------
+	Liens 
+	-----------------------------*/
+	a {
+		color: black; 
+		text-decoration: none;  
+	}
+
+	a:hover {
+		color: #550000; 
+	}
