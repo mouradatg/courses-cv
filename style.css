@@ -10,6 +10,11 @@ Par Mourad Attig
 	-----------------------------*/
 	body {
 		background-color: #DEE0E2;
+		margin: 0px; 
+	}
+
+	#bloc_page {
+		display: flex;
 	}
 
 /*	-----------------------------
@@ -39,6 +44,11 @@ Par Mourad Attig
 		text-align: center;
 	}
 
+	section {
+		width: 100%;
+		 
+	}
+
 /*	-----------------------------
 	Liens 
 	-----------------------------*/
@@ -49,4 +59,23 @@ Par Mourad Attig
 
 	a:hover {
 		color: #550000; 
+	}
+
+/*	-----------------------------
+	Liseret
+	-----------------------------*/
+	aside {
+		background-color: black;
+		width: 150px; 
+		height: 600px; 
+		border-radius: 5px; 
+	}
+
+	/*	-----------------------------
+	Catégories du CV 
+	-----------------------------*/
+	#categories {
+		display: inline-block;
+		display: flex;
+		justify-content: space-around;
 	}
