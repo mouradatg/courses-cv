@@ -79,3 +79,18 @@ Par Mourad Attig
 		display: flex;
 		justify-content: space-around;
 	}
+
+	/*	-----------------------------
+	CV Responsive 
+	-----------------------------*/
+	@media screen and (max-width: 1024px)
+	{
+		#liseret {
+			display: none;
+		}
+
+		#categories {
+			flex-direction: column;
+			margin-left: 50px; 
+		}
+	}
