@@ -1,6 +1,8 @@
 # Site de test pour cours HTML et CSS
 
-This is my first website
+Here is my first site to create through Openclassrooms training.
+
+I thank OpenClassroom and his teacher for the quality of his course.
 
 # Setting it up
 
